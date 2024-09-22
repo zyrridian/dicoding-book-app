@@ -1,3 +1,231 @@
 <resources>
-    <string name="app_name">Book App</string>
+    <string name="app_name">Book Nest</string>
+
+    <string name="book_name">Book Name</string>
+    <string name="book_author">Book Author</string>
+    <string name="ratings">Ratings</string>
+    <string name="pages">Pages</string>
+    <string name="published_year">Published Year</string>
+    <string name="cover_image">Cover Image</string>
+    <string name="genre">Genre</string>
+    <string name="description">Description</string>
+    <string name="link_to_purchase">Link to Purchase</string>
+    <string name="share">Share</string>
+    <string name="rezky_aditia_fauzan">Rezky Aditia Fauzan</string>
+    <string name="rezkyaf246_gmail_com">rezkyaf246@gmail.com</string>
+    <string name="visit_dicoding_profile">Visit Dicoding Profile</string>
+    <string name="about">About</string>
+    <string name="slash_logo">Slash Logo</string>
+
+    <string-array name="data_title">
+        <item>Gödel, Escher, Bach: An Eternal Golden Braid</item>
+        <item>Sapiens: A Brief History of Humankind</item>
+        <item>Thinking, Fast and Slow</item>
+        <item>The Selfish Gene</item>
+        <item>The Immortal Life of Henrietta Lacks</item>
+        <item>A Brief History of Time</item>
+        <item>Why We Sleep: Unlocking the Power of Sleep and Dreams</item>
+        <item>Cosmos</item>
+        <item>Guns, Germs, and Steel: The Fates of Human Societies</item>
+        <item>Night</item>
+        <item>The Stranger</item>
+        <item>The Alchemist</item>
+        <item>The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life</item>
+        <item>Entangled Life: How Fungi Make Our Worlds, Change Our Minds and Shape Our Futures</item>
+        <item>What If?: Serious Scientific Answers to Absurd Hypothetical Questions</item>
+        <item>Humble Pi: A Comedy of Maths Errors</item>
+        <item>Pandora\'s Lab: Seven Stories of Science Gone Wrong</item>
+        <item>Stiff: The Curious Lives of Human Cadavers</item>
+        <item>This Is Your Mind on Plants</item>
+    </string-array>
+    <string-array name="data_author">
+        <item>Douglas R. Hofstadter</item>
+        <item>Yuval Noah Harari</item>
+        <item>Daniel Kahneman</item>
+        <item>Richard Dawkins</item>
+        <item>Rebecca Skloot</item>
+        <item>Stephen Hawking</item>
+        <item>Matthew Walker</item>
+        <item>Carl Sagan</item>
+        <item>Jared Diamond</item>
+        <item>Elie Wiesel, Marion Wiesel (Translator), François Mauriac (Foreword)</item>
+        <item>Albert Camus, Matthew Ward (Translator)</item>
+        <item>Paulo Coelho</item>
+        <item>Mark Manson</item>
+        <item>Merlin Sheldrake</item>
+        <item>Randall Munroe</item>
+        <item>Matt Parker</item>
+        <item>Paul A. Offit</item>
+        <item>Mary Roach</item>
+        <item>Michael Pollan</item>
+    </string-array>
+    <string-array name="data_published_year">
+        <item>1979</item>
+        <item>2011</item>
+        <item>2011</item>
+        <item>1976</item>
+        <item>2010</item>
+        <item>1988</item>
+        <item>2017</item>
+        <item>1980</item>
+        <item>1997</item>
+        <item>1956</item>
+        <item>1942</item>
+        <item>1988</item>
+        <item>2016</item>
+        <item>2020</item>
+        <item>2014</item>
+        <item>2019</item>
+        <item>2017</item>
+        <item>2003</item>
+        <item>2021</item>
+    </string-array>
+    <string-array name="data_genre">
+        <item>Science, Nonfiction, Philosophy, Mathematics, Psychology, Music, Computer Science</item>
+        <item>Nonfiction, History, Science, Audiobook, Philosophy, Anthropology, Psychology</item>
+        <item>Nonfiction, Psychology, Self Help, Business, Personal Development, Philosophy, Audiobook</item>
+        <item>Science, Nonfiction, Biology, Evolution, Philosophy, Psychology, Popular Science</item>
+        <item>Nonfiction, Science, History, Biography, Audiobook, Medicine, Medical</item>
+        <item>Science, Nonfiction, Physics, History, Classics, Astronomy, Philosophy</item>
+        <item>Nonfiction, Science, Health, Psychology, Self Help, Audiobook, Neuroscience</item>
+        <item>Science, Nonfiction, Physics, Astronomy, History, Space, Philosophy</item>
+        <item>History, Nonfiction, Science, Anthropology, Sociology, Politics, Economics</item>
+        <item>Nonfiction, Classics, Memoir, Holocaust, Biography, School, Historical</item>
+        <item>Classics, Fiction, Philosophy, France, Literature, Novels, French Literature</item>
+        <item>Fiction, Fantasy, Philosophy, Novels, Self Help, Spirituality, Audiobook</item>
+        <item>Nonfiction, Self Help, Psychology, Audiobook, Personal Development, Philosophy, Business</item>
+        <item>Nonfiction, Science, Nature, Biology, Audiobook, Environment, Ecology</item>
+        <item>Nonfiction, Science, Humor, Audiobook, Physics, Comedy, Popular Science</item>
+        <item>Nonfiction, Science, Mathematics, Humor, Audiobook, History, Popular Science</item>
+        <item>Science, Nonfiction, History, Audiobook, Medicine, Medical, Health</item>
+        <item>Nonfiction, Science, Audiobook, Humor, Medical, Medicine, Death</item>
+        <item>Nonfiction, Science, Audiobook, Psychology, Nature, Health, History</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Douglas Hofstadters book is concerned directly with the nature of “maps” or links between formal systems. However, according to Hofstadter, the formal system that underlies all mental activity transcends the system that supports it. If life can grow out of the formal chemical substrate of the cell, if consciousness can emerge out of a formal system of firing neurons, then so too will computers attain human intelligence. Gödel, Escher, Bach is a wonderful exploration of fascinating ideas at the heart of cognitive science: meaning, reduction, recursion, and much more.</item>
+        <item>From a renowned historian comes a groundbreaking narrative of humanity’s creation and evolution—a #1 international bestseller—that explores the ways in which biology and history have defined us and enhanced our understanding of what it means to be “human.” One hundred thousand years ago, at least six different species of humans inhabited Earth. Yet today there is only one—homo sapiens. What happened to the others? And what may happen to us? Most books about the history of humanity pursue either a historical or a biological approach, but Dr. Yuval Noah Harari breaks the mold with this highly original book that begins about 70,000 years ago with the appearance of modern cognition. From examining the role evolving humans have played in the global ecosystem to charting the rise of empires, Sapiens integrates history and science to reconsider accepted narratives, connect past developments with contemporary concerns, and examine specific events within the context of larger ideas. Dr. Harari also compels us to look ahead, because over the last few decades humans have begun to bend laws of natural selection that have governed life for the past four billion years. We are acquiring the ability to design not only the world around us, but also ourselves. Where is this leading us, and what do we want to become? Featuring 27 photographs, 6 maps, and 25 illustrations/diagrams, this provocative and insightful work is sure to spark debate and is essential reading for aficionados of Jared Diamond, James Gleick, Matt Ridley, Robert Wright, and Sharon Moalem.</item>
+        <item>In the highly anticipated Thinking, Fast and Slow, Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical. Kahneman exposes the extraordinary capabilities—and also the faults and biases—of fast thinking, and reveals the pervasive influence of intuitive impressions on our thoughts and behavior. The impact of loss aversion and overconfidence on corporate strategies, the difficulties of predicting what will make us happy in the future, the challenges of properly framing risks at work and at home, the profound effect of cognitive biases on everything from playing the stock market to planning the next vacation—each of these can be understood only by knowing how the two systems work together to shape our judgments and decisions.\n\nEngaging the reader in a lively conversation about how we think, Kahneman reveals where we can and cannot trust our intuitions and how we can tap into the benefits of slow thinking. He offers practical and enlightening insights into how choices are made in both our business and our personal lives—and how we can use different techniques to guard against the mental glitches that often get us into trouble. Thinking, Fast and Slow will transform the way you think about thinking.</item>
+        <item>"The Selfish Gene" caused a wave of excitement among biologists and the general public when it was first published in 1976. Its vivid rendering of a genes eye view of life, in lucid prose, gathered together the strands of thought about the nature of natural selection into a conceptual framework with far-reaching implications for our understanding of evolution. Time has confirmed its significance. Intellectually rigorous, yet written in non-technical language, "The Selfish Gene" is widely regarded as a masterpiece of science writing, and its insights remain as relevant today as on the day it was published.</item>
+        <item>Her name was Henrietta Lacks, but scientists know her as HeLa. She was a poor Southern tobacco farmer who worked the same land as her enslaved ancestors, yet her cells—taken without her knowledge—became one of the most important tools in medicine. The first “immortal” human cells grown in culture, they are still alive today, though she has been dead for more than sixty years. If you could pile all HeLa cells ever grown onto a scale, they’d weigh more than 50 million metric tons—as much as a hundred Empire State Buildings. HeLa cells were vital for developing the polio vaccine; uncovered secrets of cancer, viruses, and the atom bomb’s effects; helped lead to important advances like in vitro fertilization, cloning, and gene mapping; and have been bought and sold by the billions.\n\nYet Henrietta Lacks remains virtually unknown, buried in an unmarked grave.\n\nNow Rebecca Skloot takes us on an extraordinary journey, from the “colored” ward of Johns Hopkins Hospital in the 1950s to stark white laboratories with freezers full of HeLa cells; from Henrietta’s small, dying hometown of Clover, Virginia — a land of wooden quarters for enslaved people, faith healings, and voodoo — to East Baltimore today, where her children and grandchildren live and struggle with the legacy of her cells.\n\nHenrietta’s family did not learn of her “immortality” until more than twenty years after her death, when scientists investigating HeLa began using her husband and children in research without informed consent. And though the cells had launched a multimillion-dollar industry that sells human biological materials, her family never saw any of the profits. As Rebecca Skloot so brilliantly shows, the story of the Lacks family — past and present — is inextricably connected to the history of experimentation on African Americans, the birth of bioethics, and the legal battles over whether we control the stuff we are made of.\n\nOver the decade it took to uncover this story, Rebecca became enmeshed in the lives of the Lacks family—especially Henrietta’s daughter Deborah, who was devastated to learn about her mother’s cells. She was consumed with questions: Had scientists cloned her mother? Did it hurt her when researchers infected her cells with viruses and shot them into space? What happened to her sister, Elsie, who died in a mental institution at the age of fifteen? And if her mother was so important to medicine, why couldn’t her children afford health insurance?\n\nIntimate in feeling, astonishing in scope, and impossible to put down, The Immortal Life of Henrietta Lacks captures the beauty and drama of scientific discovery, as well as its human consequences.</item>
+        <item>A landmark volume in science writing by one of the great minds of our time, Stephen Hawking’s book explores such profound questions as: How did the universe begin—and what made its start possible? Does time always flow forward? Is the universe unending—or are there boundaries? Are there other dimensions in space? What will happen when it all ends?\n\nTold in language we all can understand, A Brief History of Time plunges into the exotic realms of black holes and quarks, of antimatter and “arrows of time,” of the big bang and a bigger God—where the possibilities are wondrous and unexpected. With exciting images and profound imagination, Stephen Hawking brings us closer to the ultimate secrets at the very heart of creation.</item>
+        <item>Neuroscientist and sleep expert Matthew Walker provides a revolutionary exploration of sleep, examining how it affects every aspect of our physical and mental well-being. Charting the most cutting-edge scientific breakthroughs, and marshalling his decades of research and clinical practice, Walker explains how we can harness sleep to improve learning, mood and energy levels, regulate hormones, prevent cancer, Alzheimers and diabetes, slow the effects of aging, and increase longevity. He also provides actionable steps towards getting a better nights sleep every night.</item>
+        <item>The story of fifteen billion years of cosmic evolution transforming matter and life into consciousness, of how science and civilisation grew up together, and of the forces and individuals who helped shape modern science. A story told with Carl Sagans remarkable ability to make scientific ideas both comprehensible and exciting, based on his acclaimed television series.</item>
+        <item>"Diamond has written a book of remarkable scope… one of the most important and readable works on the human past published in recent years."\n\nWinner of the Pulitzer Prize and a national bestseller: the global account of the rise of civilization that is also a stunning refutation of ideas of human development based on race.\n\nIn this "artful, informative, and delightful" (William H. McNeill, New York Review of Books) book, Jared Diamond convincingly argues that geographical and environmental factors shaped the modern world. Societies that had a head start in food production advanced beyond the hunter-gatherer stage, and then developed writing, technology, government, and organized religion—as well as nasty germs and potent weapons of war—and adventured on sea and land to conquer and decimate preliterate cultures. A major advance in our understanding of human societies, Guns, Germs, and Steel chronicles the way that the modern world came to be and stunningly dismantles racially based theories of human history.\n\nWinner of the Pulitzer Prize, the Phi Beta Kappa Award in Science, the Rhone-Poulenc Prize, and the Commonwealth Club of Californias Gold Medal</item>
+        <item>Born in the town of Sighet, Transylvania, Elie Wiesel was a teenager when he and his family were taken from their home in 1944 to Auschwitz concentration camp, and then to Buchenwald. Night is the terrifying record of Elie Wiesels memories of the death of his family, the death of his own innocence, and his despair as a deeply observant Jew confronting the absolute evil of man. This new translation by his wife and most frequent translator, Marion Wiesel, corrects important details and presents the most accurate rendering in English of Elie Wiesels testimony to what happened in the camps and of his unforgettable message that this horror must simply never be allowed to happen again.</item>
+        <item>Published in 1942 by French author Albert Camus, The Stranger has long been considered a classic of twentieth-century literature. Le Monde ranks it as number one on its "100 Books of the Century" list. Through this story of an ordinary man unwittingly drawn into a senseless murder on a sundrenched Algerian beach, Camus explores what he termed "the nakedness of man faced with the absurd."</item>
+        <item>Combining magic, mysticism, wisdom, and wonder into an inspiring tale of self-discovery, The Alchemist has become a modern classic, selling millions of copies around the world and transforming the lives of countless readers across generations.\n\nPaulo Coelhos masterpiece tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure. His quest will lead him to riches far different—and far more satisfying—than he ever imagined. Santiagos journey teaches us about the essential wisdom of listening to our hearts, recognizing opportunity and learning to read the omens strewn along lifes path, and, most importantly, following our dreams.</item>
+        <item>In this generation-defining self-help guide, a superstar blogger cuts through the crap to show us how to stop trying to be "positive" all the time so that we can truly become better, happier people.\n\nFor decades, we’ve been told that positive thinking is the key to a happy, rich life. "F**k positivity," Mark Manson says. "Let’s be honest, shit is f**ked and we have to live with it." In his wildly popular Internet blog, Manson doesn’t sugarcoat or equivocate. He tells it like it is—a dose of raw, refreshing, honest truth that is sorely lacking today. The Subtle Art of Not Giving a F**k is his antidote to the coddling, let’s-all-feel-good mindset that has infected American society and spoiled a generation, rewarding them with gold medals just for showing up.\n\nManson makes the argument, backed both by academic research and well-timed poop jokes, that improving our lives hinges not on our ability to turn lemons into lemonade, but on learning to stomach lemons better. Human beings are flawed and limited—"not everybody can be extraordinary, there are winners and losers in society, and some of it is not fair or your fault." Manson advises us to get to know our limitations and accept them. Once we embrace our fears, faults, and uncertainties, once we stop running and avoiding and start confronting painful truths, we can begin to find the courage, perseverance, honesty, responsibility, curiosity, and forgiveness we seek.\n\nThere are only so many things we can give a f**k about so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience. A much-needed grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real-talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F**k is a refreshing slap for a generation to help them lead contented, grounded lives.</item>
+        <item>There is a lifeform so strange and wondrous that it forces us to rethink how life works…\n\nNeither plant nor animal, it is found throughout the earth, the air and our bodies. It can be microscopic, yet also accounts for the largest organisms ever recorded, living for millennia and weighing tens of thousands of tonnes. Its ability to digest rock enabled the first life on land, it can survive unprotected in space, and thrives amidst nuclear radiation.\n\nIn this captivating adventure, Merlin Sheldrake explores the spectacular and neglected world of fungi: endlessly surprising organisms that sustain nearly all living systems. They can solve problems without a brain, stretching traditional definitions of ‘intelligence’, and can manipulate animal behaviour with devastating precision. In giving us bread, alcohol and life-saving medicines, fungi have shaped human history, and their psychedelic properties, which have influenced societies since antiquity, have recently been shown to alleviate a number of mental illnesses. The ability of fungi to digest plastic, explosives, pesticides and crude oil is being harnessed in break-through technologies, and the discovery that they connect plants in underground networks, the ‘Wood Wide Web’, is transforming the way we understand ecosystems. Yet they live their lives largely out of sight, and over ninety percent of their species remain undocumented.\n\nEntangled Life is a mind-altering journey into this hidden kingdom of life, and shows that fungi are key to understanding the planet on which we live, and the ways we think, feel and behave. The more we learn about fungi, the less makes sense without them.</item>
+        <item>Randall Munroe left NASA in 2005 to start up his hugely popular site XKCD a web comic of romance, sarcasm, math and language which offers a witty take on the world of science and geeks. It now has 600,000 to a million page hits daily. Every now and then, Munroe would get emails asking him to arbitrate a science debate. My friend and I were arguing about what would happen if a bullet got struck by lightning, and we agreed that you should resolve it . . .  He liked these questions so much that he started up What If.\n\nIf your cells suddenly lost the power to divide, how long would you survive?\n\nHow dangerous is it, really, to be in a swimming pool in a thunderstorm?\n\nIf we hooked turbines to people exercising in gyms, how much power could we produce?\n\nWhat if everyone only had one soulmate?\n\nWhen (if ever) did the sun go down on the British empire?\n\nHow fast can you hit a speed bump while driving and live?\n\nWhat would happen if the moon went away?\n\nIn pursuit of answers, Munroe runs computer simulations, pores over stacks of declassified military research memos, solves differential equations, and consults with nuclear reactor operators. His responses are masterpieces of clarity and hilarity, studded with memorable cartoons and infographics. They often predict the complete annihilation of humankind, or at least a really big explosion. Far more than a book for geeks, WHAT IF: Serious Scientific Answers to Absurd Hypothetical Questions explains the laws of science in operation in a way that every intelligent reader will enjoy and feel much the smarter for having read.</item>
+        <item>An international bestseller\n\nThe book-length answer to anyone who ever put their hand up in math class and asked, "When am I ever going to use this in the real world?"\n\n"Fun, informative, and relentlessly entertaining, Humble Pi is a charming and very readable guide to some of humanitys all-time greatest miscalculations—that also gives you permission to feel a little better about some of your own mistakes." —Ryan North, author of How to Invent Everything\n\nOur whole world is built on math, from the code running a website to the equations enabling the design of skyscrapers and bridges. Most of the time this math works quietly behind the scenes . . . until it doesnt. All sorts of seemingly innocuous mathematical mistakes can have significant consequences.\n\nMath is easy to ignore until a misplaced decimal point upends the stock market, a unit conversion error causes a plane to crash, or someone divides by zero and stalls a battleship in the middle of the ocean.\n\nExploring and explaining a litany of glitches, near misses, and mathematical mishaps involving the internet, big data, elections, street signs, lotteries, the Roman Empire, and an Olympic team, Matt Parker uncovers the bizarre ways math trips us up, and what this reveals about its essential place in our world. Getting it wrong has never been more fun.</item>
+        <item>What happens when ideas presented as science lead us in the wrong direction?\n\nHistory is filled with brilliant ideas that gave rise to disaster, and this book explores the most fascinating—and significant—missteps: from opiums heyday as the pain reliever of choice to recognition of opioids as a major cause of death in the U.S.; from the rise of trans fats as the golden ingredient for tastier, cheaper food to the heart disease epidemic that followed; and from the cries to ban DDT for the sake of the environment to an epidemic-level rise in world malaria.\n\nThese are todays sins of science—as deplorable as mistaken past ideas about advocating racial purity or using lobotomies as a cure for mental illness. These unwitting errors add up to seven lessons both cautionary and profound, narrated by renowned author and speaker Paul A. Offit. Offit uses these lessons to investigate how we can separate good science from bad, using some of todays most controversial creations—e-cigarettes, GMOs, drug treatments for ADHD—as case studies. For every "Aha!" moment that should have been an "Oh no," this book is an engrossing account of how science has been misused disastrously—and how we can learn to use its power for good.</item>
+        <item>Okay, youre thinking: "This must be some kind of a joke. A humorous book about cadavers?"\n\nYup — and it works.\n\nMary Roach takes the age-old question, "What happens to us after we die?" quite literally. And in Stiff, she explores the "lives" of human cadavers from the time of the ancient Egyptians all the way up to current campaigns for human composting. Along the way, she recounts with morbidly infectious glee how dead bodies are used for research ranging from car safety and plastic surgery (youll cancel your next collagen injection after reading this!), to the authenticity of the Shroud of Turin.\n\nImpossible (and irreverent) as it may sound, Roach has written a book about corpses thats both lively and fresh. She traveled around the globe to conduct her forensic investigations, and her findings are wryly intelligent. While the myriad uses for cadavers recounted are often graphic, Roach imbues her subject with a sense of dignity, choosing to emphasize the oddly noble purposes corpses serve, from organ donation to lifesaving medical research.\n\nReaders will come away convinced of the enormous debt that we, the living, owe to the study of the remains of the dead. And while it may not offer the answer to the ancient mystery we were hoping for, Stiff offers a strange sort of comfort in the knowledge that, in a sense, death isnt necessarily the end.</item>
+        <item>In This Is Your Mind on Plants, Michael Pollan dives deep into three plant drugs—opium, caffeine, and mescaline—and throws the fundamental strangeness, and arbitrariness, of our thinking about them into sharp relief. Exploring and participating in the cultures that have grown up around these drugs while consuming (or, in the case of caffeine, trying not to consume) them, Pollan reckons with the powerful human attraction to psychoactive plants. Why do we go to such great lengths to seek these shifts in consciousness, and then why do we fence that universal desire with laws and customs and fraught feelings?</item>
+    </string-array>
+    <string-array name="data_isbn">
+        <item>9780465026562 (ISBN10: 0465026567)</item>
+        <item>-</item>
+        <item>9780374275631 (ISBN10: 0374275637)</item>
+        <item>9780199291151 (ISBN10: 0199291152)</item>
+        <item>9781400052172 (ISBN10: 1400052173)</item>
+        <item>9780553380163 (ISBN10: 0553380168)</item>
+        <item>-</item>
+        <item>9780375508325 (ISBN10: 0375508325)</item>
+        <item>9780739467350 (ISBN10: 0739467352)</item>
+        <item>-</item>
+        <item>-</item>
+        <item>9780062315007 (ISBN10: 0062315005)</item>
+        <item>9780062457738</item>
+        <item>9780525510314 (ISBN10: 0525510311)</item>
+        <item>9780544272996 (ISBN10: 0544272994)</item>
+        <item>9780241360194 (ISBN10: 0241360196)</item>
+        <item>9781426217999 (ISBN10: 1426217994)</item>
+        <item>9780393324822 (ISBN10: 0393324826)</item>
+        <item>9780593296905 (ISBN10: 0593296907)</item>
+    </string-array>
+    <string-array name="data_pages">
+        <item>777</item>
+        <item>512</item>
+        <item>499</item>
+        <item>360</item>
+        <item>370</item>
+        <item>226</item>
+        <item>368</item>
+        <item>384</item>
+        <item>498</item>
+        <item>120</item>
+        <item>123</item>
+        <item>182</item>
+        <item>212</item>
+        <item>352</item>
+        <item>303</item>
+        <item>314</item>
+        <item>314</item>
+        <item>303</item>
+        <item>288</item>
+    </string-array>
+    <string-array name="data_cover_image">
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1547125681i/24113.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1703329310i/23692271.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1317793965i/11468377.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366758096i/61535.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327878144i/6493208.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1333578746i/3869.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1556604137i/34466963.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1388620656i/55030.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1453215833i/1842.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1709507006i/1617.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1590930002i/49552.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1465761302i/28257707.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1575341220l/52668915.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1451351509i/21413662.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1552885037i/39074550.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1480403038i/33146881.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649429166i/32145.jpg</item>
+        <item>https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606111590i/56015023.jpg</item>
+    </string-array>
+    <string-array name="data_link_to_purchase">
+        <item>https://a.co/d/6IQivez</item>
+        <item>https://a.co/d/aKBlsQl</item>
+        <item>https://a.co/d/3CwCtlT</item>
+        <item>https://a.co/d/48yH5c7</item>
+        <item>https://a.co/d/4JIs1nV</item>
+        <item>https://a.co/d/aH3TI3N</item>
+        <item>https://a.co/d/bFlZSxX</item>
+        <item>https://a.co/d/ay1bcnq</item>
+        <item>https://a.co/d/hlZCEQc</item>
+        <item>https://a.co/d/dsfP6iE</item>
+        <item>https://a.co/d/6Cgedwy</item>
+        <item>https://a.co/d/fnVivFF</item>
+        <item>https://a.co/d/gDEwnzf</item>
+        <item>https://a.co/d/4TZ6dwO</item>
+        <item>https://a.co/d/bBMweN4</item>
+        <item>https://a.co/d/7uhdBDM</item>
+        <item>https://a.co/d/9ASJEAa</item>
+        <item>https://a.co/d/9ASJEAa</item>
+        <item>https://a.co/d/fydaheT</item>
+    </string-array>
+    <string-array name="data_ratings">
+        <item>4.29</item>
+        <item>4.36</item>
+        <item>4.18</item>
+        <item>4.16</item>
+        <item>4.12</item>
+        <item>4.21</item>
+        <item>4.38</item>
+        <item>4.40</item>
+        <item>4.04</item>
+        <item>4.37</item>
+        <item>4.03</item>
+        <item>3.91</item>
+        <item>3.88</item>
+        <item>4.35</item>
+        <item>4.14</item>
+        <item>4.11</item>
+        <item>4.15</item>
+        <item>4.06</item>
+        <item>3.86</item>
+    </string-array>
+
 </resources>
