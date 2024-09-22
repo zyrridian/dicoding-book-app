@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:scrollbars="none"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:scrollbars="none"
     tools:context=".AboutActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
@@ -25,7 +25,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:navigationIcon="@drawable/ic_back"
-            app:popupTheme="@style/ThemeOverlay.Material3.Light">
+            app:popupTheme="@style/ThemeOverlay.Material3.Light"
+            app:titleTextColor="@color/black">
 
             <TextView
                 android:id="@+id/toolbar_title"
@@ -41,8 +42,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:paddingVertical="32dp"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:paddingVertical="32dp">
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/book_cover_image"
@@ -64,6 +65,7 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/rezky_aditia_fauzan"
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -77,6 +79,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/rezkyaf246_gmail_com"
                 android:textAlignment="center"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -89,6 +92,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:text="@string/visit_dicoding_profile"
+                android:textColor="@color/white"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/email" />
