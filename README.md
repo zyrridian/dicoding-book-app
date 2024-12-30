@@ -3,7 +3,7 @@
 Book Nest is a simple Android application developed as part of the Dicoding course, Belajar Android Untuk Pemula. The app statically displays a list of books using RecyclerView and provides a detailed view of each book's information.
 
 ## Screenshots
-![Frame 44 (1)](https://github.com/user-attachments/assets/8bd3fcb9-8e5f-4406-a484-9b1e7f36a68f)
+![bookapp-screenshot](https://github.com/user-attachments/assets/337a1775-5c9d-426a-bcd7-ac95f9fdbd67)
 
 ## Table of Contents
 - [Features](https://github.com/zyrridian/dicoding-book-app/edit/master/README.md#features)
